@@ -1,50 +1,17 @@
 # Boas vindas ao repositório do projeto Trybers and Dragons!
 
-Para realizar o projeto, atente-se a cada passo descrito a seguir, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀
-
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir deste repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
-
-# Termos e acordos
-
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta e do Manual da Pessoa Estudante da Trybe.
-
-# Entregáveis
+Esse projeto foi feito durante meus estudos na Trybe, e tem como objetivo simular um back-end de um jogo de rpg estilo dungeons and dragons.
 
 <details>
-  <summary><strong>🤷🏽‍♀️ Como entregar</strong></summary><br />
+  <summary><strong>:memo: Habilidades</strong></summary><br />
 
-  Para entregar o seu projeto você deverá criar um *Pull Request* neste repositório.
+  Neste projeto eu:
 
-  Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://app.betrybe.com/learn/course/5e938f69-6e32-43b3-9685-c936530fd326/module/fc998c60-386e-46bc-83ca-4269beb17e17/section/fe827a71-3222-4b4d-a66f-ed98e09961af/day/35e03d5e-6341-4a8c-84d1-b4308b2887ef/lesson/573db55d-f451-455d-bdb5-66545668f436) e nosso [Blog - Git & GitHub](https://blog.betrybe.com/tecnologia/git-e-github/) sempre que precisar!
+  * Pratiquei a aplicação dos princípios da arquitetura `SOLID`;
+  * Pratiquei a aplicação dos princípios de POO;
+  * Pratiquei todas as habilidades desenvolvidas na época no módulo de Back-End.
 </details>
 
-<details>
-  <summary><strong>👨‍💻 O que deverá ser desenvolvido</strong></summary><br />
-
-  Para este projeto, você deverá aplicar os princípios da arquitetura `SOLID` e os princípios de `POO` em uma estrutura de jogos de interpretação de papéis, mais conhecidos como jogos `RPG` (_Role Playing Game_).
-
-  ---
-
-  ⚠️ **Dicas Importantes** ⚠️:
-
-  - Durante a execução dos testes, serão criados arquivos `.js` no repositório do projeto:
-
-    - Ao final da execução de cada teste é rodado um script que apaga todos os arquivos `.js` do repositório (com exceção dos que já vão com o projeto);
-
-    - O script utiliza o binário `find` do linux;
-
-    - ~Em ambiente Windows, o `find` utilizado é o que vem na instalação do git (`C:/Program Files/Git/usr/bin/find.exe`).~
-
-</details>
-
-<details>
-  <summary><strong>🗓 Data de Entrega</strong></summary><br />
-  
-  * Este projeto é individual
-  * Serão `2` dias de projeto
-  * Data para entrega final do projeto: `03/03/2023 14:00`
-
-</details>
 
 # Orientações
 
@@ -89,55 +56,18 @@ Ao iniciar este projeto, você concorda com as diretrizes do Código de Conduta 
 </details>
 
 <details>
-  <summary><strong>‼️ Antes de começar a desenvolver</strong></summary><br />
-
+  <summary><strong>‼️ Para utilizar a aplicação</strong></summary><br />
   1. Clone o repositório
 
-  - `git clone git@github.com:tryber/sd-024-a-project-trybers-and-dragons.git`.
-  - Entre na pasta do repositório que você acabou de clonar:
-    - `cd sd-024-a-project-s-and-dragons`
+  - Use o comando no terminal da pasta escolhida para receber os códigos: 'git clone git@github.com:Kuytinho/trybers-and-dragons.git'.
 
   2. Instale as dependências
 
-  - `npm install`
-
-  3. Crie uma branch a partir da branch `main`
-
-  - Verifique se você está na branch `main`
-    - Exemplo: `git branch`
-  - Se não estiver, mude para a branch `main`
-    - Exemplo: `git checkout main`
-  - Agora crie uma branch à qual você vai submeter os `commits` do seu projeto
-    - Você deve criar uma branch no seguinte formato: `nome-de-usuario-nome-do-projeto`
-    - Exemplo: `git checkout -b joaozinho-sd-024-a-project-s-and-dragons`
-
-  4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
-
-  - Verifique que as mudanças ainda não estão no _stage_
-    - Exemplo: `git status` (deve aparecer listada a pasta _joaozinho_ em vermelho)
-  - Adicione o novo arquivo ao _stage_ do Git
-      - Exemplo:
-        - `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-        - `git status` (deve aparecer listado o arquivo _joaozinho/README.md_ em verde)
-  - Faça o `commit` inicial
-      - Exemplo:
-        - `git commit -m 'iniciando o projeto x'` (fazendo o primeiro commit)
-        - `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
-
-  5. Adicione a sua branch com o novo `commit` ao repositório remoto
-
-  - Usando o exemplo anterior: `git push -u origin joaozinho-sd-024-a-project-s-and-dragons`
-
-  6. Crie um novo `Pull Request` _(PR)_
-
-  - Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-024-a-project-s-and-dragons/pulls);
-  - Clique no botão verde _"New pull request"_;
-  - Clique na caixa de seleção _"Compare"_ e escolha a sua branch **com atenção**;
-  - Clique no botão verde _"Create pull request"_;
-  - Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_;
-  - **Não se preocupe em preencher mais nada por enquanto!**;
-  - Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-024-a-project-s-and-dragons/pulls) e confira que o seu _Pull Request_ está criado.
-
+  - `npm install`.
+  
+  3. Comece a aplicação
+  
+  - npm start
 </details>
 
 <details>
